@@ -2971,6 +2971,7 @@ Started GET "/school_classes/new" for 127.0.0.1 at 2018-05-31 15:27:42 +0000
 Processing by SchoolClassesController#new as HTML
   Rendered school_classes/new.html.erb within layouts/application (2.9ms)
 Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 Started POST "/school_classes" for 127.0.0.1 at 2018-05-31 15:27:42 +0000
 Processing by SchoolClassesController#create as HTML
   Parameters: {"utf8"=>"✓", "school_class"=>{"title"=>"Sabermetrics", "room_number"=>"42"}, "commit"=>"Create School class"}
@@ -3192,3 +3193,5 @@ Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.1ms)
   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-05-31 15:27:43.214380"], ["updated_at", "2018-05-31 15:27:43.214380"]]
   [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
   [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 380bf1dfeeeccf32ebf1acc3d20a34934f37cfdc
